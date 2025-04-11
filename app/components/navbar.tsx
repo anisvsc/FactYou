@@ -9,7 +9,7 @@ export default function Navbar() {
         <span className="text-blue-400 font-mono">Fact</span>You
       </Link>
       <Button asChild size={"icon"} variant={"outline"} className="cursor-pointer">
-        <Link href={"/"} target="_blank">
+        <Link href={"https://github.com/anisvsc/FactYou"} target="_blank">
           <Github />
         </Link>
       </Button>
