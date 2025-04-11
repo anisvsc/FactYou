@@ -1,11 +1,10 @@
-"use client"; // Ensures this component is rendered on the client side
-
+"use client";
 import { useState } from "react";
-import { motion } from "framer-motion"; // Animation library
-import { Button } from "@/components/ui/button"; // Custom UI button component
-import { Input } from "@/components/ui/input"; // Custom UI input component
-import { Loader2 } from "lucide-react"; // Icon for loading spinner
-import AnswerCard from "./answer-card"; // Custom component to display results
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Loader2 } from "lucide-react";
+import AnswerCard from "./answer-card";
 
 // Animation variants for container fade-in effect
 const containerVariants = {

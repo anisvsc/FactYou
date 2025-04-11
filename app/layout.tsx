@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="dark scroll-smooth">
-      <body className={cn("antialiased relative min-h-screen", geistMono.className)}>
+      <body className={cn("antialiased relative min-h-screen bg-neutral-900", geistMono.className)}>
         <div className="border-b sticky top-0">
           <Navbar />
         </div>
