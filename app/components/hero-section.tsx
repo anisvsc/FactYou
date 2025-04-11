@@ -28,7 +28,7 @@ const itemVariants = {
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[50vh] lg:min-h-[70vh] flex items-center justify-center overflow-hidden">
       <motion.div className="mx-auto text-center" variants={containerVariants} initial="hidden" animate="visible">
         {/* App Name */}
         <motion.h1 className="text-5xl lg:text-7xl font-bold text-white tracking-tight" variants={itemVariants}>
