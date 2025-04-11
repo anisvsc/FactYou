@@ -54,7 +54,7 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <motion.section variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }} className="pb-24 px-4">
+    <motion.section variants={containerVariants} initial="hidden" viewport={{ once: true, amount: 0.2 }} className="pb-24 px-4">
       <motion.h2 variants={itemVariants} className="text-3xl font-bold text-center mb-8 text-foreground">
         Why Choose FactYou?
       </motion.h2>

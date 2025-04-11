@@ -41,7 +41,7 @@ export default function HeroSection() {
         </motion.h2>
 
         {/* Description */}
-        <motion.p className="mt-4 max-w-2xl mx-auto text-xs lg:text-base text-foreground/60 opacity-80 leading-relaxed" variants={itemVariants}>
+        <motion.p className="mt-4 max-w-2xl mx-auto text-sm lg:text-base text-foreground/60 opacity-80 leading-relaxed" variants={itemVariants}>
           Instantly verify news and social media posts with AI-powered analysis. Get clear, reliable results in real time.
         </motion.p>
 
